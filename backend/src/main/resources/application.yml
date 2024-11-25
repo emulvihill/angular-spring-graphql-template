@@ -2,7 +2,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/testdata
     username: root
-    password: pw
+    password: password
   application:
     name: testproj-backend
   graphql:
