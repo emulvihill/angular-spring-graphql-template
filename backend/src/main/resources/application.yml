@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/testdata
+    url: jdbc:mysql://localhost:3306/testproj
     username: root
     password: password
   application:
@@ -10,7 +10,9 @@ spring:
       enabled: true
   flyway:
     create-schemas: true
-    default-schema: testdata
+    schemas: testproj
+    default-schema: testproj
+    init-sqls: CREATE SCHEMA IF NOT EXISTS testproj;
 
 server:
-  port: 8888
+  port: 5000
