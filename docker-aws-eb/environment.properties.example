@@ -1,0 +1,6 @@
+export SPRING_AI_OPENAI_API_KEY=(openai_key)
+export SPRING_DATASOURCE_USERNAME=(ds_username)
+export SPRING_DATASOURCE_PASSWORD=(ds_password)
+export SPRING_DATASOURCE_URL='jdbc:mysql://localhost:3306/testproj'
+export JWT_SECRET=(secret_key)
+export OPENAI_MODEL=gpt-4o-mini
